@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Multi Panel Tab Splitter",
+  "description": "Shows multiple websites in one tab (iframe grid) - supports 2, 4, or 6 tabs",
+  "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
